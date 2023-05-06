@@ -1,0 +1,16 @@
+{
+    "version":1,
+    "name":"nfatou-aot-api",
+    "builds" : [
+        {
+            "src":"posts.js",
+            "use":"@vercel/node"
+        }
+    ],
+    "routes" : [
+        {
+            "src":"/(.*)",
+            "dest":"/posts.js"
+        }
+    ]
+}
