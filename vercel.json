@@ -1,5 +1,5 @@
 {
-    "version":"3.7.6" ,
+    "version":3,
     "name":"nfatou-aot-api",
     "builds" : [
         {
